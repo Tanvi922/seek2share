@@ -121,7 +121,7 @@ public class LoginTest {
 		assertEquals("You requested for Nishant's introduction", driver.findElement(By.id("rmv_name")).getText());
 		driver.findElement(By.id("rmv_expand")).click();	
 		assertEquals("VP", driver.findElement(By.id("rmv_child_designation")).getText());
-		assertEquals("Mumbai", driver.findElement(By.id("rmv_child_city ")).getText());
+		assertEquals("Mumbai", driver.findElement(By.id("rmv_child_city")).getText());
 		assertEquals("Pending", driver.findElement(By.id("rmv_child_status")).getText());
 		driver.findElement(By.id("rmv_child_delete")).click();			 
 	 }
